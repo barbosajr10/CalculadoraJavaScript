@@ -1,0 +1,39 @@
+
+.btNumero {
+  width: 100%;
+  height: 10vh;
+  margin-bottom: 5px;
+  font-size: 30px;
+
+  border-radius: 5%;
+}
+
+.btNumero:hover{
+  background-color: rgb(173, 173, 173);
+  transition: 1s;
+}
+
+#txtResultado {
+  width: 100%;
+  height: 10vh;
+  font-size: 60px;
+  text-align: right;
+  margin-bottom: 5px;
+  background-color: rgb(173, 173, 173);
+}
+
+.container{
+  max-width: 500px;
+}
+
+#btnDividir, #btnVezes, #btnMenos, #btnMais, #btnIgual{
+  background-color: rgb(145, 145, 145);
+}
+
+#btnDividir:hover, #btnVezes:hover, #btnMenos:hover, #btnMais:hover, #btnIgual:hover{
+  color: aliceblue;
+}
+
+#btnLimpar{
+  background-color: rgb(184, 94, 94);
+}
